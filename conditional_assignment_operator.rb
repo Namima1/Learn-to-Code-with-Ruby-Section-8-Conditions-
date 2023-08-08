@@ -13,4 +13,5 @@ p my_value
 #because current value is nil, the output of my_value will be 5
 
 my_value ||= 10 
+p my_value
 #my_value will not be reassigned to 10 bc my_value is no longer nil,it is now 5
